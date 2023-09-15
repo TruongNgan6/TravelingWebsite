@@ -124,7 +124,7 @@ span.logo-viettravel img {
     padding: 10px;
     margin-right: 250px;
     color: #202020;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     justify-content: flex-end;
 }
@@ -136,4 +136,41 @@ span.logo-viettravel img {
 
 .menu-bar span:hover {
     border-bottom: 3px solid #FFAF19;
+}
+
+.title-picture {
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.title-picture img {
+    width: 100%;
+    height: 900px;
+    opacity: 0.8;
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.title .sub-title1 {
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.title .sub-title2 {
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.title .sub-title3 {
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 200;
 }
