@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #a5a5a5;
+}
+
+.header-bar {
+    height: 32px;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #E3E2E2;
+}
+
+.phone-email {
+    font-size: 12px;
+    display: flex;
+    height: 100%;
+    width: 30%;
+    margin-left: 30px;
+}
+
+.phone:hover,
+.email:hover {
+    color: #000000;
+}
+
+.phone {
+    display: flex;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.phone-icon,
+.email-icon,
+.login-key,
+.sign-up-person {
+    padding: 10px;
+}
+
+.phone p,
+.email p {
+    padding: 10px;
+}
+
+.email {
+    display: flex;
+    cursor: pointer;
+}
+
+.social-media {
+    display: flex;
+    height: 100%;
+    width: 40%;
+    margin: 5px;
+    justify-content: flex-end;
+}
+
+.logoFace,
+.logoTwitter,
+.logoYou {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+.login-signup {
+    font-size: 12px;
+    display: flex;
+    height: 100%;
+    width: 30%;
+    margin-right: 50px;
+    justify-content: flex-end;
+}
+
+.login,
+.sign-up {
+    display: flex;
+    cursor: pointer;
+}
+
+.login:hover,
+.sign-up:hover {
+    color: #000000;
+}
+
+.login span,
+.sign-up span {
+    margin: 10px;
+    font-weight: 600;
+}
+
+.sub-header-bar {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+
+span.logo-viettravel {
+    width: 20%;
+    height: 100%;
+    margin-left: 100px;
+    padding: 10px;
+
+}
+
+span.logo-viettravel img {
+    width: 200px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.menu-bar {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    margin-right: 250px;
+    color: #202020;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: flex-end;
+}
+
+.menu-bar span {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.menu-bar span:hover {
+    border-bottom: 3px solid #FFAF19;
+}
